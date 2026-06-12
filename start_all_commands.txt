@@ -1,0 +1,15 @@
+mongod
+
+mongosh
+
+
+cd backend
+..\.venv\Scripts\activate.ps1
+..\.venv\Scripts\python.exe -m uvicorn main:app --reload
+
+
+npm start
+
+REM Swagger UI (open in browser)
+
+http://localhost:8000/docs

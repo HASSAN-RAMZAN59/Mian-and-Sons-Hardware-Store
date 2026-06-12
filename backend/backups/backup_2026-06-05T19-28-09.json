@@ -1,0 +1,3190 @@
+{
+  "products": [
+    {
+      "_id": {
+        "$oid": "6a02e72507d0049e65fb94ff"
+      },
+      "name": "Pipe pprc (25mm) (13ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 750.0,
+      "salePrice": 848.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "inventory": {
+        "_id": "6a02e7256532abf6de2fc468",
+        "product_id": "6a02e72507d0049e65fb94ff",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      },
+      "stock": 248,
+      "stockQty": 248
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee0507d0049e65fb9500"
+      },
+      "name": "Pipe pprc 32mm (13ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1130.0,
+      "salePrice": 1220.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0,
+      "inventory": {
+        "_id": "6a02ee056532abf6de2fc469",
+        "product_id": "6a02ee0507d0049e65fb9500",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee5207d0049e65fb9501"
+      },
+      "name": "Pipe (Single) 1 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 220.0,
+      "salePrice": 280.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "inventory": {
+        "_id": "6a02ee526532abf6de2fc46a",
+        "product_id": "6a02ee5207d0049e65fb9501",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      },
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee8e07d0049e65fb9502"
+      },
+      "name": "Pipe (Double) 1 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 310.0,
+      "salePrice": 360.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "inventory": {
+        "_id": "6a02ee8e6532abf6de2fc46b",
+        "product_id": "6a02ee8e07d0049e65fb9502",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      },
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02eeb307d0049e65fb9503"
+      },
+      "name": "Pipe (Single)\t2 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 450.0,
+      "salePrice": 500.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "inventory": {
+        "_id": "6a02eeb36532abf6de2fc46c",
+        "product_id": "6a02eeb307d0049e65fb9503",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      },
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ef6207d0049e65fb9504"
+      },
+      "name": "Pipe (Double)\t2 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 660.0,
+      "salePrice": 720.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ef9107d0049e65fb9505"
+      },
+      "name": "Pipe (Single)\t3 inch (13ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 930.0,
+      "salePrice": 1020.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0,
+      "inventory": {
+        "_id": "6a02ef916532abf6de2fc46e",
+        "product_id": "6a02ef9107d0049e65fb9505",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6a02efaf07d0049e65fb9506"
+      },
+      "name": "Pipe (Double)\t3 inch (13ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1410.0,
+      "salePrice": 1550.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02efce07d0049e65fb9507"
+      },
+      "name": "Pipe (Single)\t4 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 860.0,
+      "salePrice": 1000.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0,
+      "inventory": {
+        "_id": "6a02efce6532abf6de2fc470",
+        "product_id": "6a02efce07d0049e65fb9507",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6a02eff207d0049e65fb9508"
+      },
+      "name": "Pipe (Double)\t4 inch (10ft)",
+      "size": null,
+      "company": "Adam G",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1270.0,
+      "salePrice": 1370.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f02707d0049e65fb9509"
+      },
+      "name": "Pipe (Single)\t4 inch (13ft)",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1110.0,
+      "salePrice": 1250.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f04607d0049e65fb950a"
+      },
+      "name": "Pipe (Double)\t4 inch (13ft)",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1650.0,
+      "salePrice": 1800.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f06807d0049e65fb950b"
+      },
+      "name": "Water Tank\t250 Litre",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 3000.0,
+      "salePrice": 3300.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0,
+      "inventory": {
+        "_id": "6a02f0686532abf6de2fc474",
+        "product_id": "6a02f06807d0049e65fb950b",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6a02f08707d0049e65fb950c"
+      },
+      "name": "Water Tank\t600 Litre",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 4200.0,
+      "salePrice": 4800.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0b807d0049e65fb950d"
+      },
+      "name": "Water Tank\t350 Litre",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 3500.0,
+      "salePrice": 4200.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "stock": 0,
+      "stockQty": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f17907d0049e65fb950e"
+      },
+      "name": "Sink Bowl\t14 x 17",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1400.0,
+      "salePrice": 1600.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f19307d0049e65fb950f"
+      },
+      "name": "Sink Bowl\t15 x 19",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 1500.0,
+      "salePrice": 1796.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1be07d0049e65fb9510"
+      },
+      "name": "Basin\tLarge (White)",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 3500.0,
+      "salePrice": 4000.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1da07d0049e65fb9511"
+      },
+      "name": "Basin\tMed (Blue/Grey)",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 2500.0,
+      "salePrice": 3000.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f22007d0049e65fb9512"
+      },
+      "name": "Bath Seat",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 1500.0,
+      "salePrice": 1700.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f24a07d0049e65fb9513"
+      },
+      "name": "Bath Seat",
+      "size": null,
+      "company": "Capital",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 1900.0,
+      "salePrice": 2500.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f28607d0049e65fb9514"
+      },
+      "name": "Simple Tap",
+      "size": null,
+      "company": "Hi-Fine",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 250.0,
+      "salePrice": 301.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2a607d0049e65fb9515"
+      },
+      "name": "Simple Tap",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 90.0,
+      "salePrice": 149.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2c307d0049e65fb9516"
+      },
+      "name": "T-Cock",
+      "size": null,
+      "company": "Fine",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 279.0,
+      "salePrice": 310.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2f207d0049e65fb9517"
+      },
+      "name": "Basin Tap",
+      "size": null,
+      "company": "Fine",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 350.0,
+      "salePrice": 430.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f33307d0049e65fb9518"
+      },
+      "name": "Muslim Shower",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Bath Accessories & Taps:",
+      "purchasePrice": 500.0,
+      "salePrice": 600.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f34c07d0049e65fb9519"
+      },
+      "name": "Shower Head(+Rod)",
+      "size": null,
+      "company": "Master",
+      "type": null,
+      "category": "Plumbing & Sanitary Items",
+      "purchasePrice": 230.0,
+      "salePrice": 300.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f36907d0049e65fb951a"
+      },
+      "name": "Paint Brush\t1 inch",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 30.0,
+      "salePrice": 40.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f38207d0049e65fb951b"
+      },
+      "name": "Paint Brush\t2 inch",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 50.0,
+      "salePrice": 80.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f39a07d0049e65fb951c"
+      },
+      "name": "Paint Brush\t3 inch",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 149.0,
+      "salePrice": 200.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3c307d0049e65fb951d"
+      },
+      "name": "Paint Brush\t5 inch",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 240.0,
+      "salePrice": 282.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3dd07d0049e65fb951e"
+      },
+      "name": "Paint Spray\tSilver",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 300.0,
+      "salePrice": 380.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3f907d0049e65fb951f"
+      },
+      "name": "Paint Spray\tBlack/Yellow/Red",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Paints & Accessories",
+      "purchasePrice": 299.0,
+      "salePrice": 380.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f44207d0049e65fb9520"
+      },
+      "name": "Wiring Pipe\t10 ft",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 68.0,
+      "salePrice": 76.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f46c07d0049e65fb9521"
+      },
+      "name": "Fan Box\t5 ft",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 130.0,
+      "salePrice": 190.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f49207d0049e65fb9522"
+      },
+      "name": "Bulb\t13 Watt",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 110.0,
+      "salePrice": 150.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f4d607d0049e65fb9523"
+      },
+      "name": "Circuit Breaker\t15/20 Amp",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 290.0,
+      "salePrice": 320.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f50807d0049e65fb9524"
+      },
+      "name": "Main Breaker\t100/150 Amp",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 969.0,
+      "salePrice": 1100.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f52907d0049e65fb9525"
+      },
+      "name": "Bulb Holder\tMedium",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 35.0,
+      "salePrice": 50.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f54c07d0049e65fb9526"
+      },
+      "name": "Change Over\t10 Amp",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 950.0,
+      "salePrice": 1099.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null
+    },
+    {
+      "_id": {
+        "$oid": "6a02f56207d0049e65fb9527"
+      },
+      "name": "DP\tSmall",
+      "size": null,
+      "company": null,
+      "type": null,
+      "category": "Electrical Hardware Items",
+      "purchasePrice": 700.0,
+      "salePrice": 850.0,
+      "unit": "Piece",
+      "tags": [],
+      "category_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "brand_id": null,
+      "supplier_id": null,
+      "inventory": {
+        "_id": "6a02f5626532abf6de2fc490",
+        "product_id": "6a02f56207d0049e65fb9527",
+        "maxStock": 0,
+        "minStock": 0,
+        "quantity": 0
+      },
+      "stock": 2,
+      "stockQty": 2
+    }
+  ],
+  "users": [],
+  "customers": [
+    {
+      "_id": {
+        "$oid": "69f4c9df64d89a0cb5333724"
+      },
+      "fullName": "MIAN HASSAN",
+      "phone": "+923426435527",
+      "whatsapp": "",
+      "email": "",
+      "address": "",
+      "city": "",
+      "cnic": "",
+      "customerType": "Wholesale",
+      "creditLimit": 0.0,
+      "openingBalance": 0.0,
+      "notes": "",
+      "status": "Active",
+      "totalPurchases": 0.0,
+      "totalPaid": 0.0,
+      "balanceDue": 0.0,
+      "createdAt": "2026-05-01T15:42:23.998957",
+      "updatedAt": "2026-05-01T15:42:23.998957"
+    },
+    {
+      "_id": {
+        "$oid": "69f4d2998fc1383f0223af1e"
+      },
+      "fullName": "hasssan",
+      "phone": "03426435527",
+      "email": "test@gmail.com",
+      "address": "59 jb nathu chak amin pur road\nbag wala adda",
+      "city": "Faisalabad",
+      "updatedAt": "2026-05-13T04:16:27.044131",
+      "createdAt": "2026-05-01T16:19:37.474235",
+      "orders": [
+        "69f4d2998fc1383f0223af1f",
+        "6a03fb1b07d0049e65fb9528"
+      ],
+      "totalPurchases": 882.0,
+      "totalPaid": 882.0,
+      "balanceDue": 0.0
+    }
+  ],
+  "orders": [
+    {
+      "_id": {
+        "$oid": "69f45847a4f39c35f8c3d46a"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 34.0,
+          "productCode": "PRD-69ee53d893f641259d3ec7bb",
+          "productName": "paint",
+          "lineTotal": 34
+        }
+      ],
+      "total": 34.0,
+      "invoiceNumber": "INV-2026-063786",
+      "date": "2026-05-01",
+      "time": "12:37:43",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 34,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 34,
+      "paymentMethod": "Cash",
+      "cashReceived": 34,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-01T07:37:43.786Z",
+      "updatedAt": "2026-05-01T07:37:43.825213"
+    },
+    {
+      "_id": {
+        "$oid": "69f45850a4f39c35f8c3d46b"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 34.0,
+          "productCode": "PRD-69ee53d893f641259d3ec7bb",
+          "productName": "paint",
+          "lineTotal": 34
+        }
+      ],
+      "total": 34.0,
+      "invoiceNumber": "INV-2026-072772",
+      "date": "2026-05-01",
+      "time": "12:37:52",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 34,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 34,
+      "paymentMethod": "Cash",
+      "cashReceived": 34,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-01T07:37:52.772Z",
+      "updatedAt": "2026-05-01T07:37:52.799018"
+    },
+    {
+      "_id": {
+        "$oid": "69f46ab5c985b73dfed0a927"
+      },
+      "customer_id": "cust_1777549355232",
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 2,
+          "price": 1
+        }
+      ],
+      "total": 2.0,
+      "status": "Pending",
+      "createdAt": "2026-05-01T08:56:21.135Z",
+      "statusUpdatedAt": "2026-05-01T08:56:21.135Z",
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "dateTime": "2026-05-01T08:56:21.135Z"
+        }
+      ],
+      "shipping": {
+        "address": "er",
+        "city": "Faisalabad",
+        "area": "wer",
+        "notes": "",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "paymentMethod": "cod",
+      "totals": {
+        "subtotal": 2,
+        "discount": 0,
+        "delivery": 0,
+        "grandTotal": 2
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T08:56:21.645853"
+    },
+    {
+      "_id": {
+        "$oid": "69f474862a4b2c9c07d15f1d"
+      },
+      "customer_id": "cust_1777549355232",
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 1
+        }
+      ],
+      "total": 1.0,
+      "status": "Dispatched",
+      "payment": {
+        "method": "cod",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "",
+          "mobileNumber": ""
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-01T09:38:14.932Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "kl.",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "delivery": 0,
+        "grandTotal": 1
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T09:40:55.717913",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T09:38:14.977196",
+          "message": "Order has been placed successfully."
+        }
+      ],
+      "message": "Order status updated to Dispatched",
+      "returns": [
+        "69f49fe25fe9efa894ff37be"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f491530e2a716752ffbfeb"
+      },
+      "customer_id": "cust_1777549355232",
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 2,
+          "price": 1
+        }
+      ],
+      "total": 2.0,
+      "status": "Pending",
+      "payment": {
+        "method": "easypaisa",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "i",
+          "mobileNumber": "03426435527"
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-01T11:41:07.658Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "i",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 2,
+        "discount": 0,
+        "delivery": 0,
+        "grandTotal": 2
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T11:41:07.696379",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T11:41:07.696379",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f493222ff68f5c6d2faf2d"
+      },
+      "customer_id": {
+        "$oid": "69f493222ff68f5c6d2faf2c"
+      },
+      "customer": {
+        "fullName": "hasssan",
+        "email": "test@gmail.com",
+        "phone": "03426435527"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 1
+        }
+      ],
+      "total": 1.0,
+      "status": "Pending",
+      "payment": {
+        "method": "cod",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "",
+          "mobileNumber": ""
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-01T11:48:50.398Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "e",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "delivery": 0,
+        "grandTotal": 1
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T11:48:50.459720",
+      "statusUpdatedAt": "2026-05-01T11:48:50.459720",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T11:48:50.459720",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f496744243fefe65d880ce"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee551593f641259d3ec7bc"
+          },
+          "quantity": 1,
+          "price": 45.0,
+          "productCode": "PRD-69ee551593f641259d3ec7bc",
+          "productName": "Appointment Agent",
+          "lineTotal": 45
+        }
+      ],
+      "total": 45.0,
+      "invoiceNumber": "INV-2026-980788",
+      "date": "2026-05-01",
+      "time": "17:03:00",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 45,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 45,
+      "paymentMethod": "Cash",
+      "cashReceived": 45,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-01T12:03:00.788Z",
+      "customer_id": null,
+      "updatedAt": "2026-05-01T12:03:00.820073",
+      "statusUpdatedAt": "2026-05-01T12:03:00.820073",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T12:03:00.820073",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f496794243fefe65d880d0"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 34.0,
+          "productCode": "PRD-69ee53d893f641259d3ec7bb",
+          "productName": "paint",
+          "lineTotal": 34
+        }
+      ],
+      "total": 34.0,
+      "invoiceNumber": "INV-2026-985284",
+      "date": "2026-05-01",
+      "time": "17:03:05",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 34,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 34,
+      "paymentMethod": "Cash",
+      "cashReceived": 34,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-01T12:03:05.284Z",
+      "customer_id": null,
+      "updatedAt": "2026-05-01T12:03:05.308084",
+      "statusUpdatedAt": "2026-05-01T12:03:05.308084",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T12:03:05.308084",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f4a2775fe9efa894ff37bf"
+      },
+      "customer_id": {
+        "$oid": "69f493222ff68f5c6d2faf2c"
+      },
+      "customer": {
+        "fullName": "MIAN HASSAN",
+        "email": "test@gmail.com",
+        "phone": "03426435527"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 1
+        }
+      ],
+      "total": 1.0,
+      "status": "Pending",
+      "payment": {
+        "method": "cod",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "",
+          "mobileNumber": ""
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-01T12:54:15.801Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "8",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "delivery": 0,
+        "grandTotal": 1
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T12:54:15.846495",
+      "statusUpdatedAt": "2026-05-01T12:54:15.846495",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T12:54:15.846495",
+          "message": "Order has been placed successfully."
+        }
+      ],
+      "returns": [
+        "69f4a2a15fe9efa894ff37c1"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f4d2998fc1383f0223af1f"
+      },
+      "customer_id": {
+        "$oid": "69f4d2998fc1383f0223af1e"
+      },
+      "customer": {
+        "fullName": "mian",
+        "email": "test@gmail.com",
+        "phone": "03426435527"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "quantity": 1,
+          "price": 34.0,
+          "unitPrice": 34.0,
+          "lineTotal": 34.0
+        }
+      ],
+      "total": 34.0,
+      "status": "Pending",
+      "payment": {
+        "method": "cod",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "",
+          "mobileNumber": ""
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-01T16:19:37.416Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "ioh",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 34.0,
+        "discountAmount": 0.0,
+        "grandTotal": 34.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "source": "website",
+      "updatedAt": "2026-05-01T16:19:37.474235",
+      "statusUpdatedAt": "2026-05-01T16:19:37.474235",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-01T16:19:37.474235",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f5bdbd1c4f67cffe1dd324"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69ee551593f641259d3ec7bc"
+          },
+          "quantity": 1,
+          "price": 45.0,
+          "productCode": "PRD-69ee551593f641259d3ec7bc",
+          "productName": "Appointment Agent",
+          "lineTotal": 45.0,
+          "unitPrice": 45.0
+        }
+      ],
+      "total": 45.0,
+      "invoiceNumber": "INV-2026-573354",
+      "date": "2026-05-02",
+      "time": "14:02:53",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 45,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 45,
+      "paymentMethod": "Cash",
+      "cashReceived": 45,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-02T09:02:53.354Z",
+      "totals": {
+        "subtotal": 45.0,
+        "discountAmount": 0.0,
+        "grandTotal": 45.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "customer_id": null,
+      "updatedAt": "2026-05-02T09:02:53.419319",
+      "statusUpdatedAt": "2026-05-02T09:02:53.419319",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-02T09:02:53.419319",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f5bdc41c4f67cffe1dd327"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "69f43dbf2c752b7bd127fcad"
+          },
+          "quantity": 1,
+          "price": 15.0,
+          "productCode": "PRD-69f43dbf2c752b7bd127fcad",
+          "productName": "Debug Product",
+          "lineTotal": 15.0,
+          "unitPrice": 15.0
+        }
+      ],
+      "total": 15.0,
+      "invoiceNumber": "INV-2026-580263",
+      "date": "2026-05-02",
+      "time": "14:03:00",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 15,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 15,
+      "paymentMethod": "Cash",
+      "cashReceived": 15,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-05-02T09:03:00.263Z",
+      "totals": {
+        "subtotal": 15.0,
+        "discountAmount": 0.0,
+        "grandTotal": 15.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "customer_id": null,
+      "updatedAt": "2026-05-02T09:03:00.307690",
+      "statusUpdatedAt": "2026-05-02T09:03:00.307690",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-02T09:03:00.307690",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "69f6f7512e8f50d0bfaf6d03"
+      },
+      "customerId": null,
+      "supplierId": null,
+      "products": [],
+      "totalAmount": 500.0,
+      "status": "completed",
+      "type": "sale",
+      "paymentStatus": "unpaid",
+      "payment": {
+        "method": "Cash",
+        "details": null,
+        "status": "paid"
+      },
+      "trackingHistory": [],
+      "date": "2026-05-03T12:18:00"
+    },
+    {
+      "_id": {
+        "$oid": "69f6f7812e8f50d0bfaf6d06"
+      },
+      "customerId": null,
+      "supplierId": null,
+      "products": [],
+      "totalAmount": 750.0,
+      "status": "completed",
+      "type": "sale",
+      "paymentStatus": "unpaid",
+      "payment": {
+        "method": "Cash",
+        "details": null,
+        "status": "paid"
+      },
+      "trackingHistory": [],
+      "date": "2026-05-03T12:19:00"
+    },
+    {
+      "_id": {
+        "$oid": "6a03fb1b07d0049e65fb9528"
+      },
+      "customer_id": {
+        "$oid": "69f4d2998fc1383f0223af1e"
+      },
+      "customer": {
+        "fullName": "hasssan",
+        "email": "test@gmail.com",
+        "phone": "03426435527"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "6a02e72507d0049e65fb94ff"
+          },
+          "quantity": 1,
+          "price": 848.0,
+          "unitPrice": 848.0,
+          "lineTotal": 848.0
+        }
+      ],
+      "total": 848.0,
+      "status": "Dispatched",
+      "payment": {
+        "method": "cod",
+        "details": {
+          "bankName": "",
+          "accountTitle": "",
+          "accountNumber": "",
+          "transactionId": "",
+          "mobileNumber": ""
+        },
+        "status": "pending"
+      },
+      "createdAt": "2026-05-13T04:16:26.721Z",
+      "shipping": {
+        "address": "59 jb nathu chak amin pur road\nbag wala adda",
+        "city": "Faisalabad",
+        "area": "punjab",
+        "notes": "",
+        "postalCode": "38000",
+        "deliveryType": "standard",
+        "deliveryCharge": 0
+      },
+      "totals": {
+        "subtotal": 848.0,
+        "discountAmount": 0.0,
+        "grandTotal": 848.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "source": "website",
+      "updatedAt": "2026-05-13T04:19:41.035102",
+      "statusUpdatedAt": "2026-05-13T04:16:27.044131",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-05-13T04:16:27.044131",
+          "message": "Order has been placed successfully."
+        }
+      ],
+      "message": "Order status updated to Dispatched"
+    },
+    {
+      "_id": {
+        "$oid": "6a23051ea1dada9374bcd7b1"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "6a02f56207d0049e65fb9527"
+          },
+          "quantity": 1,
+          "price": 850.0,
+          "productCode": "PRD-6a02f56207d0049e65fb9527",
+          "productName": "DP\tSmall",
+          "lineTotal": 850.0,
+          "unitPrice": 850.0
+        }
+      ],
+      "total": 850.0,
+      "invoiceNumber": "INV-2026-966108",
+      "date": "2026-06-05",
+      "time": "22:19:26",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 850,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 850,
+      "paymentMethod": "Card",
+      "cashReceived": null,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-06-05T17:19:26.108Z",
+      "totals": {
+        "subtotal": 850.0,
+        "discountAmount": 0.0,
+        "grandTotal": 850.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "customer_id": null,
+      "updatedAt": "2026-06-05T17:19:26.165809",
+      "statusUpdatedAt": "2026-06-05T17:19:26.165809",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-06-05T17:19:26.165809",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6a230523a1dada9374bcd7b4"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "6a02f56207d0049e65fb9527"
+          },
+          "quantity": 2,
+          "price": 850.0,
+          "productCode": "PRD-6a02f56207d0049e65fb9527",
+          "productName": "DP\tSmall",
+          "lineTotal": 1700.0,
+          "unitPrice": 850.0
+        }
+      ],
+      "total": 1700.0,
+      "invoiceNumber": "INV-2026-971117",
+      "date": "2026-06-05",
+      "time": "22:19:31",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 1700,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 1700,
+      "paymentMethod": "Card",
+      "cashReceived": null,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-06-05T17:19:31.117Z",
+      "totals": {
+        "subtotal": 1700.0,
+        "discountAmount": 0.0,
+        "grandTotal": 1700.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "customer_id": null,
+      "updatedAt": "2026-06-05T17:19:31.142594",
+      "statusUpdatedAt": "2026-06-05T17:19:31.142594",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-06-05T17:19:31.142594",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6a230542a1dada9374bcd7b7"
+      },
+      "items": [
+        {
+          "product_id": {
+            "$oid": "6a02e72507d0049e65fb94ff"
+          },
+          "quantity": 2,
+          "price": 848.0,
+          "productCode": "PRD-6a02e72507d0049e65fb94ff",
+          "productName": "Pipe pprc (25mm) (13ft)",
+          "lineTotal": 1696.0,
+          "unitPrice": 848.0
+        }
+      ],
+      "total": 1696.0,
+      "invoiceNumber": "INV-2026-002506",
+      "date": "2026-06-05",
+      "time": "22:20:02",
+      "customerId": "walk-in",
+      "customerName": "Walk-in Customer",
+      "subtotal": 1696,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "tax": 0,
+      "grandTotal": 1696,
+      "paymentMethod": "Cash",
+      "cashReceived": 1696,
+      "changeAmount": 0,
+      "cashier": "Super Admin",
+      "source": "pos",
+      "createdAt": "2026-06-05T17:20:02.506Z",
+      "totals": {
+        "subtotal": 1696.0,
+        "discountAmount": 0.0,
+        "grandTotal": 1696.0,
+        "discount": null,
+        "delivery": 0.0
+      },
+      "customer_id": null,
+      "updatedAt": "2026-06-05T17:20:02.536656",
+      "statusUpdatedAt": "2026-06-05T17:20:02.536656",
+      "paymentStatus": "unpaid",
+      "trackingHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-06-05T17:20:02.536656",
+          "message": "Order has been placed successfully."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "_id": {
+        "$oid": "69ee53ca93f641259d3ec7ba"
+      },
+      "name": "paint",
+      "description": "",
+      "color": "#d4b516",
+      "icon": "FaBoxes",
+      "parentCategory": "",
+      "status": "Active"
+    },
+    {
+      "_id": {
+        "$oid": "69f1897a98e1c3b1724c8dc7"
+      },
+      "name": "AppointmentBot",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "69f18a3898e1c3b1724c8dc8"
+      },
+      "name": "Muhammad Hassan Ramzan",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a02e54407d0049e65fb94fb"
+      },
+      "name": "Plumbing & Sanitary Items",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a02e55d07d0049e65fb94fc"
+      },
+      "name": "Bath Accessories & Taps:",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a02e56907d0049e65fb94fd"
+      },
+      "name": "Paints & Accessories",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a02e57907d0049e65fb94fe"
+      },
+      "name": "Electrical Hardware Items",
+      "description": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a22fdfc43194dc8772980f8"
+      },
+      "name": "Hassan Ramzan",
+      "description": "",
+      "parentCategory": "",
+      "icon": "FaBoxes",
+      "color": "#1e3a5f",
+      "status": "Active"
+    }
+  ],
+  "brands": [],
+  "suppliers": [
+    {
+      "_id": {
+        "$oid": "69f4b0b9c7d2195dacdeba16"
+      },
+      "name": "Babar",
+      "company": "BABAR SANITARY STORE",
+      "phone": "03326613593",
+      "createdAt": "2026-05-01T13:55:05.514158"
+    },
+    {
+      "_id": {
+        "$oid": "69f4b0b9c7d2195dacdeba17"
+      },
+      "name": "Ijaz",
+      "company": "M NAWAZ PAINT AND SANITARY",
+      "phone": "03457903352",
+      "createdAt": "2026-05-01T13:55:05.535305"
+    },
+    {
+      "_id": {
+        "$oid": "69f4b0b9c7d2195dacdeba18"
+      },
+      "name": "Zain",
+      "company": "Salesman",
+      "phone": "03077975134",
+      "createdAt": "2026-05-01T13:55:05.542919"
+    },
+    {
+      "_id": {
+        "$oid": "69f4b0b9c7d2195dacdeba19"
+      },
+      "name": "Yaseen",
+      "company": "Salesman",
+      "phone": "03066255875",
+      "createdAt": "2026-05-01T13:55:05.547150"
+    },
+    {
+      "_id": {
+        "$oid": "69f4b14a3bbe7e174e36b5d1"
+      },
+      "name": "MIAN HASSAN",
+      "company": "happilac",
+      "phone": "+923426435527",
+      "address": "",
+      "companyName": "",
+      "contactPerson": "",
+      "email": "",
+      "city": "",
+      "ntn": "",
+      "bankName": "",
+      "accountTitle": "",
+      "accountNumber": "",
+      "productCategories": "",
+      "creditDays": 30,
+      "openingBalance": 0,
+      "notes": "",
+      "status": "Active",
+      "createdAt": "2026-05-01T13:57:30.166534"
+    }
+  ],
+  "employees": [
+    {
+      "_id": {
+        "$oid": "6a23125e9d4d7ad65b2fee2f"
+      },
+      "fullName": "MIAN HASSAN",
+      "fatherName": "Muhammad Ramzan",
+      "cnic": "3310328708971",
+      "dateOfBirth": "2026-01-01",
+      "phone": "03426435527",
+      "whatsapp": "",
+      "email": "",
+      "address": "dsd",
+      "designation": "Sales Staff",
+      "department": "Sales",
+      "basicSalary": 2.0,
+      "salary": 2.0,
+      "joinDate": "2021-01-01",
+      "branch": "69f457aaa4f39c35f8c3d469",
+      "bankName": "",
+      "accountNumber": "",
+      "emergencyContact": "",
+      "emergencyPhone": "",
+      "status": "Active",
+      "branchId": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      },
+      "branch_id": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6a2320f0e77b9bbf289d0c3e"
+      },
+      "fullName": "mohsin",
+      "fatherName": "ihj",
+      "cnic": "3310328708971",
+      "dateOfBirth": "2014-01-31",
+      "phone": "03426435527",
+      "whatsapp": "",
+      "email": "",
+      "address": "59 jb nathu chak amin pur road\nbag wala adda",
+      "designation": "Accountant",
+      "department": "Accounts",
+      "salary": 0.0,
+      "joinDate": "2025-01-31",
+      "branch": "69f457aaa4f39c35f8c3d469",
+      "bankName": "",
+      "accountNumber": "",
+      "emergencyContact": "HASSAN RAMZAN",
+      "emergencyPhone": "",
+      "status": "Active",
+      "branchId": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      },
+      "branch_id": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      }
+    }
+  ],
+  "payments": [
+    {
+      "_id": {
+        "$oid": "69f6f7512e8f50d0bfaf6d04"
+      },
+      "orderId": "69f6f7512e8f50d0bfaf6d03",
+      "amount": 500.0,
+      "method": "Cash",
+      "status": "Completed",
+      "date": "2026-05-03T07:20:49.068970"
+    },
+    {
+      "_id": {
+        "$oid": "69f6f7812e8f50d0bfaf6d07"
+      },
+      "orderId": "69f6f7812e8f50d0bfaf6d06",
+      "amount": 750.0,
+      "method": "Cash",
+      "status": "Completed",
+      "date": "2026-05-03T07:21:37.722912"
+    }
+  ],
+  "inventory": [
+    {
+      "_id": {
+        "$oid": "69f33d58ddcf8bd9cb0f6547"
+      },
+      "product_id": {
+        "$oid": "69ee53d893f641259d3ec7bb"
+      },
+      "quantity": 212.0,
+      "lastUpdated": "2026-05-01T15:21:06.432393"
+    },
+    {
+      "_id": {
+        "$oid": "69f43dbf88b91738231802bd"
+      },
+      "product_id": {
+        "$oid": "69f43dbf2c752b7bd127fcad"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 133,
+      "lastUpdated": "2026-05-01T15:09:16.772532"
+    },
+    {
+      "_id": {
+        "$oid": "69f43f0088b91738231802be"
+      },
+      "product_id": {
+        "$oid": "69f43f002c752b7bd127fcaf"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 76
+    },
+    {
+      "_id": {
+        "$oid": "69f495ca88b91738231802bf"
+      },
+      "product_id": {
+        "$oid": "69ee551593f641259d3ec7bc"
+      },
+      "quantity": 55,
+      "lastUpdated": "2026-05-01T15:29:18.390932"
+    },
+    {
+      "_id": {
+        "$oid": "69f6fa605f3278e809564c07"
+      },
+      "productId": {
+        "$oid": "69ee53d893f641259d3ec7bb"
+      },
+      "lastUpdated": "2026-05-08T11:21:13.360887",
+      "stock": 198.0
+    },
+    {
+      "_id": {
+        "$oid": "6a02e7256532abf6de2fc468"
+      },
+      "product_id": {
+        "$oid": "6a02e72507d0049e65fb94ff"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 246
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee056532abf6de2fc469"
+      },
+      "product_id": {
+        "$oid": "6a02ee0507d0049e65fb9500"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 23
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee526532abf6de2fc46a"
+      },
+      "product_id": {
+        "$oid": "6a02ee5207d0049e65fb9501"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ee8e6532abf6de2fc46b"
+      },
+      "product_id": {
+        "$oid": "6a02ee8e07d0049e65fb9502"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02eeb36532abf6de2fc46c"
+      },
+      "product_id": {
+        "$oid": "6a02eeb307d0049e65fb9503"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ef626532abf6de2fc46d"
+      },
+      "product_id": {
+        "$oid": "6a02ef6207d0049e65fb9504"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02ef916532abf6de2fc46e"
+      },
+      "product_id": {
+        "$oid": "6a02ef9107d0049e65fb9505"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02efaf6532abf6de2fc46f"
+      },
+      "product_id": {
+        "$oid": "6a02efaf07d0049e65fb9506"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02efce6532abf6de2fc470"
+      },
+      "product_id": {
+        "$oid": "6a02efce07d0049e65fb9507"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02eff26532abf6de2fc471"
+      },
+      "product_id": {
+        "$oid": "6a02eff207d0049e65fb9508"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 4.0,
+      "lastUpdated": "2026-06-05T17:50:45.216096"
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0276532abf6de2fc472"
+      },
+      "product_id": {
+        "$oid": "6a02f02707d0049e65fb9509"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0466532abf6de2fc473"
+      },
+      "product_id": {
+        "$oid": "6a02f04607d0049e65fb950a"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0686532abf6de2fc474"
+      },
+      "product_id": {
+        "$oid": "6a02f06807d0049e65fb950b"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0876532abf6de2fc475"
+      },
+      "product_id": {
+        "$oid": "6a02f08707d0049e65fb950c"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f0b86532abf6de2fc476"
+      },
+      "product_id": {
+        "$oid": "6a02f0b807d0049e65fb950d"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1796532abf6de2fc477"
+      },
+      "product_id": {
+        "$oid": "6a02f17907d0049e65fb950e"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1936532abf6de2fc478"
+      },
+      "product_id": {
+        "$oid": "6a02f19307d0049e65fb950f"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1be6532abf6de2fc479"
+      },
+      "product_id": {
+        "$oid": "6a02f1be07d0049e65fb9510"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f1da6532abf6de2fc47a"
+      },
+      "product_id": {
+        "$oid": "6a02f1da07d0049e65fb9511"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2206532abf6de2fc47b"
+      },
+      "product_id": {
+        "$oid": "6a02f22007d0049e65fb9512"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f24a6532abf6de2fc47c"
+      },
+      "product_id": {
+        "$oid": "6a02f24a07d0049e65fb9513"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2866532abf6de2fc47d"
+      },
+      "product_id": {
+        "$oid": "6a02f28607d0049e65fb9514"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2a66532abf6de2fc47e"
+      },
+      "product_id": {
+        "$oid": "6a02f2a607d0049e65fb9515"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2c36532abf6de2fc47f"
+      },
+      "product_id": {
+        "$oid": "6a02f2c307d0049e65fb9516"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f2f26532abf6de2fc480"
+      },
+      "product_id": {
+        "$oid": "6a02f2f207d0049e65fb9517"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3336532abf6de2fc481"
+      },
+      "product_id": {
+        "$oid": "6a02f33307d0049e65fb9518"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f34c6532abf6de2fc482"
+      },
+      "product_id": {
+        "$oid": "6a02f34c07d0049e65fb9519"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3696532abf6de2fc483"
+      },
+      "product_id": {
+        "$oid": "6a02f36907d0049e65fb951a"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3826532abf6de2fc484"
+      },
+      "product_id": {
+        "$oid": "6a02f38207d0049e65fb951b"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f39a6532abf6de2fc485"
+      },
+      "product_id": {
+        "$oid": "6a02f39a07d0049e65fb951c"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3c36532abf6de2fc486"
+      },
+      "product_id": {
+        "$oid": "6a02f3c307d0049e65fb951d"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3dd6532abf6de2fc487"
+      },
+      "product_id": {
+        "$oid": "6a02f3dd07d0049e65fb951e"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f3f96532abf6de2fc488"
+      },
+      "product_id": {
+        "$oid": "6a02f3f907d0049e65fb951f"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f4426532abf6de2fc489"
+      },
+      "product_id": {
+        "$oid": "6a02f44207d0049e65fb9520"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f46c6532abf6de2fc48a"
+      },
+      "product_id": {
+        "$oid": "6a02f46c07d0049e65fb9521"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f4926532abf6de2fc48b"
+      },
+      "product_id": {
+        "$oid": "6a02f49207d0049e65fb9522"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f4d66532abf6de2fc48c"
+      },
+      "product_id": {
+        "$oid": "6a02f4d607d0049e65fb9523"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f5086532abf6de2fc48d"
+      },
+      "product_id": {
+        "$oid": "6a02f50807d0049e65fb9524"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f5296532abf6de2fc48e"
+      },
+      "product_id": {
+        "$oid": "6a02f52907d0049e65fb9525"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f54c6532abf6de2fc48f"
+      },
+      "product_id": {
+        "$oid": "6a02f54c07d0049e65fb9526"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    },
+    {
+      "_id": {
+        "$oid": "6a02f5626532abf6de2fc490"
+      },
+      "product_id": {
+        "$oid": "6a02f56207d0049e65fb9527"
+      },
+      "maxStock": 0,
+      "minStock": 0,
+      "quantity": 0
+    }
+  ],
+  "branches": [
+    {
+      "_id": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      },
+      "name": "MIAN HASSAN",
+      "address": "59 jb nathu chak amin pur road",
+      "manager_employee_id": {
+        "$oid": "69f440569a313cc6ccc9ad70"
+      },
+      "city": "Faisalabad..",
+      "phone": "03426435527",
+      "email": "hasaanramzan59@gmail.com",
+      "openingDate": "2026-04-29",
+      "status": "Active"
+    }
+  ],
+  "discounts": [
+    {
+      "_id": {
+        "$oid": "69f4ad2af4ce52157be51421"
+      },
+      "name": "eid",
+      "type": "Percentage",
+      "value": 3,
+      "applicableOn": "All",
+      "categoryName": "",
+      "productName": "",
+      "validFrom": "2026-05-01",
+      "validTo": "2026-05-22",
+      "status": "Active",
+      "description": "eid",
+      "minOrderAmount": 16,
+      "maxDiscount": null,
+      "code": ""
+    }
+  ],
+  "cart": [],
+  "wishlist": [],
+  "returns": [
+    {
+      "_id": {
+        "$oid": "69f49fe25fe9efa894ff37be"
+      },
+      "orderId": "69f474862a4b2c9c07d15f1d",
+      "customerId": "cust_1777549355232",
+      "productId": "69ee53d893f641259d3ec7bb",
+      "productName": "paint",
+      "price": 1.0,
+      "reason": "Defective during shipping",
+      "refundAmount": 0.0,
+      "status": "Approved",
+      "createdAt": "2026-05-01T12:43:14.852415",
+      "quantity": 1
+    },
+    {
+      "_id": {
+        "$oid": "69f4a2a15fe9efa894ff37c1"
+      },
+      "orderId": "69f4a2775fe9efa894ff37bf",
+      "customerId": "69f493222ff68f5c6d2faf2c",
+      "productId": "69ee53d893f641259d3ec7bb",
+      "productName": "paint",
+      "price": 1.0,
+      "reason": "r",
+      "refundAmount": 1.0,
+      "status": "Approved",
+      "createdAt": "2026-05-01T12:54:57.849274",
+      "quantity": 1
+    },
+    {
+      "_id": {
+        "$oid": "6a2308c6f5dff11d2bc8b578"
+      },
+      "supplierId": "69f4b0b9c7d2195dacdeba19",
+      "supplierName": "Salesman",
+      "productName": "54wer",
+      "quantity": 1,
+      "reason": "",
+      "status": "rejected",
+      "returnType": "supplier",
+      "createdAt": "2026-06-05T17:35:02.053927",
+      "type": "supplier"
+    }
+  ],
+  "damaged": [],
+  "audit": [
+    {
+      "_id": {
+        "$oid": "6a2322a0b40fbd7b6592cdb0"
+      },
+      "timestamp": "2026-06-05T19:25:20.961208Z",
+      "userName": "Invalid User",
+      "userRole": "N/A",
+      "action": "Deleted",
+      "module": "Audit",
+      "description": "Cleared all system audit logs",
+      "ipAddress": "127.0.0.1",
+      "device": "Desktop/Browser (Mozilla/5.0 (Windows NT 10.0; Win64; x64...)",
+      "isSuspicious": true
+    }
+  ],
+  "notifications": [
+    {
+      "_id": {
+        "$oid": "6a23051ea1dada9374bcd7b2"
+      },
+      "customer_id": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "title": "Order Confirmed",
+      "message": "Your order has been successfully confirmed. Thank you for shopping with Mian & Sons Hardware Store.",
+      "products": [
+        "DP\tSmall"
+      ],
+      "delivery_message": "Your order will be delivered within 7 to 8 days.",
+      "delivery_estimate": {
+        "from": "2026-06-12",
+        "to": "2026-06-13"
+      },
+      "type": "success",
+      "target": "/customer/account",
+      "created_at": "2026-06-05T17:19:26.176379",
+      "read": true
+    },
+    {
+      "_id": {
+        "$oid": "6a230523a1dada9374bcd7b5"
+      },
+      "customer_id": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "title": "Order Confirmed",
+      "message": "Your order has been successfully confirmed. Thank you for shopping with Mian & Sons Hardware Store.",
+      "products": [
+        "DP\tSmall"
+      ],
+      "delivery_message": "Your order will be delivered within 7 to 8 days.",
+      "delivery_estimate": {
+        "from": "2026-06-12",
+        "to": "2026-06-13"
+      },
+      "type": "success",
+      "target": "/customer/account",
+      "created_at": "2026-06-05T17:19:31.154142",
+      "read": true
+    },
+    {
+      "_id": {
+        "$oid": "6a230542a1dada9374bcd7b8"
+      },
+      "customer_id": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "title": "Order Confirmed",
+      "message": "Your order has been successfully confirmed. Thank you for shopping with Mian & Sons Hardware Store.",
+      "products": [
+        "Pipe pprc (25mm) (13ft)"
+      ],
+      "delivery_message": "Your order will be delivered within 7 to 8 days.",
+      "delivery_estimate": {
+        "from": "2026-06-12",
+        "to": "2026-06-13"
+      },
+      "type": "success",
+      "target": "/customer/account",
+      "created_at": "2026-06-05T17:20:02.544401",
+      "read": true
+    },
+    {
+      "_id": {
+        "$oid": "6a232145e77b9bbf289d0c3f"
+      },
+      "customer_id": "69f4d2998fc1383f0223af1e",
+      "title": "Warranty Claimed",
+      "message": "Your warranty claim for your product has been approved by Super Admin.",
+      "type": "success",
+      "target": "/customer/account",
+      "created_at": "2026-06-05T19:19:33.561296",
+      "read": false
+    }
+  ],
+  "order_tracking": [],
+  "payroll": [
+    {
+      "_id": "69f43fd16ec14ea66c68a392",
+      "employeeId": {
+        "$oid": "69f43fd16ec14ea66c68a392"
+      },
+      "month": "2026-05",
+      "amount": 1290.0,
+      "employeeName": "Validation Fix Employee",
+      "designation": "Manager",
+      "department": "",
+      "basicSalary": 1234,
+      "allowances": 56,
+      "overtime": 0,
+      "deductions": 0,
+      "advanceDeduction": 0,
+      "absenceFine": 0,
+      "grossSalary": 1290,
+      "netSalary": 1290,
+      "status": "Pending",
+      "workingDays": 31,
+      "presentDays": 0,
+      "payableDays": 0,
+      "paidDate": null
+    },
+    {
+      "_id": "69f440569a313cc6ccc9ad70",
+      "employeeId": {
+        "$oid": "69f440569a313cc6ccc9ad70"
+      },
+      "month": "2026-05",
+      "amount": 2.0,
+      "employeeName": "MIAN HASSAN",
+      "designation": "Manager",
+      "department": "Inventory",
+      "basicSalary": 2,
+      "allowances": 0,
+      "overtime": 0,
+      "deductions": 0,
+      "advanceDeduction": 0,
+      "absenceFine": 0,
+      "grossSalary": 2,
+      "netSalary": 2,
+      "status": "Pending",
+      "workingDays": 31,
+      "presentDays": 0,
+      "payableDays": 0,
+      "paidDate": null
+    },
+    {
+      "_id": {
+        "$oid": "69f44a1b2e77eb65faa0a898"
+      },
+      "employeeId": {
+        "$oid": "69f43dbf2c752b7bd127fcae"
+      },
+      "month": "2026-05",
+      "amount": 1200.0,
+      "employeeName": "Debug Employee",
+      "designation": "Manager",
+      "department": "",
+      "basicSalary": 1000,
+      "allowances": 200,
+      "overtime": 0,
+      "deductions": 0,
+      "advanceDeduction": 0,
+      "absenceFine": 0,
+      "grossSalary": 1200,
+      "netSalary": 1200,
+      "status": "Pending",
+      "workingDays": 31,
+      "presentDays": 1,
+      "payableDays": 1,
+      "paidDate": null
+    },
+    {
+      "_id": {
+        "$oid": "69f44f18086b40629f904b9b"
+      },
+      "employeeId": {
+        "$oid": "69f44f09086b40629f904b99"
+      },
+      "month": "2026-05",
+      "amount": 35000.0,
+      "branchId": {
+        "$oid": "69f44f03086b40629f904b98"
+      },
+      "basicSalary": 30000,
+      "netSalary": 32000,
+      "workingDays": 31,
+      "grossSalary": 32000,
+      "advanceDeduction": 0,
+      "department": "Sales",
+      "allowances": 2000,
+      "employeeName": "Test Employee",
+      "payableDays": 31,
+      "overtime": 0,
+      "absenceFine": 0,
+      "deductions": 0,
+      "status": "Pending",
+      "designation": "Cashier",
+      "presentDays": 31
+    },
+    {
+      "_id": {
+        "$oid": "6a23139dd30b20148740c78f"
+      },
+      "employeeId": {
+        "$oid": "6a23125e9d4d7ad65b2fee2f"
+      },
+      "month": "2026-06",
+      "amount": 2,
+      "branchId": {
+        "_id": "69f457aaa4f39c35f8c3d469",
+        "name": "MIAN HASSAN",
+        "address": "59 jb nathu chak amin pur road",
+        "manager_employee_id": "69f440569a313cc6ccc9ad70",
+        "city": "Faisalabad",
+        "phone": "03426435527",
+        "email": "hasaanramzan59@gmail.com",
+        "openingDate": "2026-04-29",
+        "status": "Active"
+      },
+      "employeeName": "MIAN HASSAN",
+      "designation": "Sales Staff",
+      "department": "Sales",
+      "basicSalary": 2,
+      "allowances": 0,
+      "overtime": 0,
+      "deductions": 0,
+      "advanceDeduction": 0,
+      "absenceFine": 0,
+      "grossSalary": 2,
+      "netSalary": 2,
+      "status": "Paid",
+      "workingDays": 30,
+      "presentDays": 1,
+      "payableDays": 1,
+      "paidDate": "2026-06-05",
+      "employee": {
+        "_id": "6a23125e9d4d7ad65b2fee2f",
+        "fullName": "MIAN HASSAN",
+        "fatherName": "Muhammad Ramzan",
+        "cnic": "3310328708971",
+        "dateOfBirth": "2026-01-01",
+        "phone": "03426435527",
+        "whatsapp": "",
+        "email": "",
+        "address": "dsd",
+        "designation": "Sales Staff",
+        "department": "Sales",
+        "basicSalary": 2,
+        "salary": 2,
+        "joinDate": "2021-01-01",
+        "branch": "69f457aaa4f39c35f8c3d469",
+        "bankName": "",
+        "accountNumber": "",
+        "emergencyContact": "",
+        "emergencyPhone": "",
+        "status": "Active",
+        "branchId": "69f457aaa4f39c35f8c3d469",
+        "branch_id": "69f457aaa4f39c35f8c3d469"
+      }
+    }
+  ],
+  "attendance": [
+    {
+      "_id": {
+        "$oid": "69f443cb6468892eb6953857"
+      },
+      "employeeId": {
+        "$oid": "69f43dbf2c752b7bd127fcae"
+      },
+      "date": "2026-05-01",
+      "status": "Present",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": "debug attendance"
+    },
+    {
+      "_id": {
+        "$oid": "69f445216468892eb695385c"
+      },
+      "employeeId": {
+        "$oid": "69f43dbf2c752b7bd127fcae"
+      },
+      "date": "2026-05-01",
+      "status": "Late",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": "debug attendance"
+    },
+    {
+      "_id": {
+        "$oid": "69f445216468892eb695385d"
+      },
+      "employeeId": {
+        "$oid": "69f43fd16ec14ea66c68a392"
+      },
+      "date": "2026-05-01",
+      "status": "Present",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": ""
+    },
+    {
+      "_id": {
+        "$oid": "69f445216468892eb695385e"
+      },
+      "employeeId": {
+        "$oid": "69f440569a313cc6ccc9ad70"
+      },
+      "date": "2026-05-01",
+      "status": "Present",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": ""
+    },
+    {
+      "_id": {
+        "$oid": "69f449912e77eb65faa0a896"
+      },
+      "employeeId": {
+        "$oid": "69f440569a313cc6ccc9ad70"
+      },
+      "date": "2026-05-01",
+      "status": "Half Day",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": ""
+    },
+    {
+      "_id": {
+        "$oid": "69f44f10086b40629f904b9a"
+      },
+      "employeeId": {
+        "$oid": "69f44f09086b40629f904b99"
+      },
+      "branchId": {
+        "$oid": "69f44f03086b40629f904b98"
+      },
+      "date": "2026-05-01",
+      "status": "Present",
+      "timeIn": "09:00",
+      "timeOut": "17:00"
+    },
+    {
+      "_id": {
+        "$oid": "6a03fb9207d0049e65fb952b"
+      },
+      "employeeId": {
+        "$oid": "69f440569a313cc6ccc9ad70"
+      },
+      "date": "2026-05-13",
+      "status": "Present",
+      "timeIn": "09:00",
+      "timeOut": "18:00",
+      "notes": ""
+    },
+    {
+      "_id": {
+        "$oid": "6a231364d30b20148740c78e"
+      },
+      "employeeId": {
+        "$oid": "6a23125e9d4d7ad65b2fee2f"
+      },
+      "branchId": {
+        "$oid": "69f457aaa4f39c35f8c3d469"
+      },
+      "date": "2026-06-05",
+      "status": "Present",
+      "timeIn": "09:01",
+      "timeOut": "18:00",
+      "notes": ""
+    }
+  ],
+  "leave": [],
+  "cashbook": [],
+  "ledger": [],
+  "daybook": [],
+  "expenses": [
+    {
+      "_id": {
+        "$oid": "69f5b8e02a6383d1b4ee64ee"
+      },
+      "title": "",
+      "category": "Salaries",
+      "amount": 234,
+      "date": "2026-05-02",
+      "description": "ijuio",
+      "paymentMethod": "Cash",
+      "reference": "",
+      "paidBy": "Super Admin",
+      "notes": "",
+      "type": "expense",
+      "method": "Cash",
+      "createdAt": "2026-05-02"
+    },
+    {
+      "_id": {
+        "$oid": "6a230e19f5dff11d2bc8b57b"
+      },
+      "title": "",
+      "category": "Marketing",
+      "amount": 34564,
+      "date": "2026-06-05",
+      "description": "dfgdfg",
+      "paymentMethod": "Bank Transfer",
+      "reference": "",
+      "paidBy": "Super Admin",
+      "notes": "",
+      "type": "expense",
+      "method": "Bank Transfer",
+      "createdAt": "2026-06-05"
+    }
+  ],
+  "warranties": [
+    {
+      "_id": {
+        "$oid": "69f5bdbd1c4f67cffe1dd325"
+      },
+      "sale_id": {
+        "$oid": "69f5bdbd1c4f67cffe1dd324"
+      },
+      "product_id": {
+        "$oid": "69ee551593f641259d3ec7bc"
+      },
+      "customer_id": null,
+      "start_date": "2026-05-02T09:02:53.419319",
+      "end_date": "2027-05-02T09:02:53.419319",
+      "status": "Active",
+      "createdAt": "2026-05-02T09:02:53.419319",
+      "updatedAt": "2026-05-02T09:02:53.419319",
+      "details": "Automatic warranty for order #69f5bdbd1c4f67cffe1dd324"
+    },
+    {
+      "_id": {
+        "$oid": "69f5bdc41c4f67cffe1dd328"
+      },
+      "sale_id": {
+        "$oid": "69f5bdc41c4f67cffe1dd327"
+      },
+      "product_id": {
+        "$oid": "69f43dbf2c752b7bd127fcad"
+      },
+      "customer_id": null,
+      "start_date": "2026-05-02T09:03:00.307690",
+      "end_date": "2027-05-02T09:03:00.307690",
+      "status": "Active",
+      "createdAt": "2026-05-02T09:03:00.307690",
+      "updatedAt": "2026-05-02T09:03:00.307690",
+      "details": "Automatic warranty for order #69f5bdc41c4f67cffe1dd327"
+    },
+    {
+      "_id": {
+        "$oid": "6a03fb1b07d0049e65fb9529"
+      },
+      "sale_id": {
+        "$oid": "6a03fb1b07d0049e65fb9528"
+      },
+      "product_id": {
+        "$oid": "6a02e72507d0049e65fb94ff"
+      },
+      "customer_id": {
+        "$oid": "69f4d2998fc1383f0223af1e"
+      },
+      "start_date": "2026-05-13T04:16:27.044131",
+      "end_date": "2027-05-13T04:16:27.044131",
+      "status": "Claimed",
+      "createdAt": "2026-05-13T04:16:27.044131",
+      "updatedAt": "2026-06-05T19:19:33.558336",
+      "details": "Automatic warranty for order #6a03fb1b07d0049e65fb9528",
+      "claimHistory": [
+        {
+          "claimDate": "2026-06-05",
+          "issue": "wrewe",
+          "description": "we",
+          "status": "Pending"
+        }
+      ]
+    }
+  ],
+  "purchases": [
+    {
+      "_id": {
+        "$oid": "69f4c4e268d9696b72febc47"
+      },
+      "supplierId": {
+        "$oid": "69f4b14a3bbe7e174e36b5d1"
+      },
+      "date": "2026-05-01",
+      "items": [
+        {
+          "productId": {
+            "$oid": "69ee53d893f641259d3ec7bb"
+          },
+          "productName": "paint",
+          "quantity": 34.0,
+          "price": 1.0,
+          "total": 34.0
+        }
+      ],
+      "totalAmount": 34.0,
+      "paidAmount": 34.0,
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid",
+      "notes": "",
+      "supplierName": "MIAN HASSAN",
+      "supplierCompany": "happilac",
+      "createdAt": "2026-05-01T15:21:06.392337",
+      "updatedAt": "2026-05-01T15:21:06.392337",
+      "receivedStatus": "Received",
+      "poNo": "PO-1002"
+    },
+    {
+      "_id": {
+        "$oid": "69f4c6ce4e4dc0945d67ad33"
+      },
+      "supplierId": {
+        "$oid": "69f4b0b9c7d2195dacdeba16"
+      },
+      "date": "2026-05-01",
+      "items": [
+        {
+          "productId": {
+            "$oid": "69ee551593f641259d3ec7bc"
+          },
+          "productName": "Appointment Agent",
+          "quantity": 23.0,
+          "price": 24354.0,
+          "total": 560142.0
+        }
+      ],
+      "totalAmount": 560142.0,
+      "paidAmount": 560142.0,
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid",
+      "notes": "",
+      "supplierName": "Babar",
+      "supplierCompany": "BABAR SANITARY STORE",
+      "createdAt": "2026-05-01T15:29:18.367644",
+      "updatedAt": "2026-05-01T15:29:18.367644",
+      "receivedStatus": "Received",
+      "poNo": "PO-1002"
+    },
+    {
+      "_id": {
+        "$oid": "6a230c75f5dff11d2bc8b579"
+      },
+      "supplierId": {
+        "$oid": "69f4b0b9c7d2195dacdeba19"
+      },
+      "date": "2026-06-05",
+      "items": [
+        {
+          "productId": {
+            "$oid": "6a02eff207d0049e65fb9508"
+          },
+          "productName": "Pipe (Double)\t4 inch (10ft)",
+          "quantity": 4.0,
+          "price": 1270.0,
+          "total": 5080.0
+        }
+      ],
+      "totalAmount": 5080.0,
+      "paidAmount": 5080.0,
+      "paymentMethod": "Cash",
+      "paymentStatus": "Credit",
+      "notes": "",
+      "supplierName": "Yaseen",
+      "supplierCompany": "Salesman",
+      "createdAt": "2026-06-05T17:50:45.199652",
+      "updatedAt": "2026-06-05T17:50:45.199652",
+      "receivedStatus": "Received",
+      "poNo": "PO-1003"
+    }
+  ],
+  "reports": [],
+  "static_pages": [],
+  "hr": [],
+  "compare": [],
+  "delivery_options": [],
+  "payment_methods": [],
+  "cities": [],
+  "coupons": []
+}
