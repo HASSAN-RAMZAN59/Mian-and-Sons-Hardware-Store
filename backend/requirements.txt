@@ -7,4 +7,6 @@ passlib[argon2,bcrypt]
 PyJWT
 dnspython
 gunicorn
+python-multipart
+
 
