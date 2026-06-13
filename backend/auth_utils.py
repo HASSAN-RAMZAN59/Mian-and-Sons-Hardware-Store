@@ -4,9 +4,7 @@ import jwt
 from fastapi import Request, HTTPException, Depends
 from typing import List, Optional
 
-SECRET_KEY = os.getenv("SECRET_KEY")
-if not SECRET_KEY:
-    SECRET_KEY = secrets.token_hex(32)
+SECRET_KEY = os.getenv("SECRET_KEY", "mysecretkey")
 ALGORITHM = "HS256"
 
 def get_token_from_request(request: Request):
