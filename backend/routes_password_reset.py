@@ -61,6 +61,68 @@ def _hash_password(password: str) -> str:
 
 
 def _send_reset_email(recipient_email: str, otp: str) -> None:
+    resend_api_key = os.getenv("RESEND_API_KEY", "").strip()
+    if resend_api_key:
+        import urllib.request
+        import json
+        
+        resend_from = os.getenv("RESEND_FROM_EMAIL", "Mian & Sons Hardware <noreply@miansonshardwarestore.me>").strip()
+        url = "https://api.resend.com/emails"
+        
+        email_text = """Use this OTP to reset your password:
+        
+{otp}
+
+This code expires in {minutes} minutes.
+
+If you did not request this, you can ignore this email.
+""".format(otp=otp, minutes=OTP_EXPIRY_SECONDS // 60 or 10)
+
+        html_body = """
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
+          <h2 style="color: #1e3a8a; margin-bottom: 20px; text-align: center;">Mian & Sons Hardware</h2>
+          <p style="font-size: 16px; color: #334155; line-height: 1.5;">Use this OTP to reset your password:</p>
+          <div style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 20px; text-align: center; margin: 25px 0; border-radius: 6px;">
+            <span style="font-size: 32px; font-weight: bold; letter-spacing: 5px; color: #ea580c; font-family: monospace;">{otp}</span>
+          </div>
+          <p style="font-size: 14px; color: #64748b; line-height: 1.5;">This code expires in {minutes} minutes.</p>
+          <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 25px 0;" />
+          <p style="font-size: 12px; color: #94a3b8; line-height: 1.5;">If you did not request this, you can safely ignore this email.</p>
+        </div>
+        """.format(otp=otp, minutes=OTP_EXPIRY_SECONDS // 60 or 10)
+
+        payload = {
+            "from": resend_from,
+            "to": recipient_email,
+            "subject": "Your password reset OTP",
+            "text": email_text,
+            "html": html_body
+        }
+        
+        headers = {
+            "Authorization": f"Bearer {resend_api_key}",
+            "Content-Type": "application/json",
+        }
+        
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers=headers,
+            method="POST"
+        )
+        
+        try:
+            with urllib.request.urlopen(req, timeout=15) as response:
+                res_body = response.read().decode("utf-8")
+                logger.info(f"Resend email sent successfully: {res_body}")
+                return
+        except Exception as e:
+            logger.error(f"Error sending email via Resend: {str(e)}")
+            raise HTTPException(
+                status_code=500,
+                detail=f"Failed to send email via Resend: {str(e)}"
+            )
+
     smtp_host = os.getenv("SMTP_HOST", "").strip()
     smtp_port = int(os.getenv("SMTP_PORT", "587"))
     smtp_username = os.getenv("SMTP_USERNAME", "").strip()
