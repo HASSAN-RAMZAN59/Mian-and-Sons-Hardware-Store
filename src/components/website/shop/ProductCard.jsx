@@ -221,52 +221,57 @@ const ProductCard = ({ product, view = 'grid' }) => {
           </div>
           {/* category label intentionally removed to avoid overlap on product cards */}
         </div>
-        <div className="p-4">
-          <h3 className="font-semibold text-primary line-clamp-2 min-h-[3rem]">{product.name}</h3>
-          <p className="text-xs text-gray-500 mt-1">{product.brand}</p>
+        <div className="p-4 flex flex-col items-center text-center">
+          <h3 className="font-semibold text-primary line-clamp-2 min-h-[3rem] text-center w-full px-1">{product.name}</h3>
+          <p className="text-xs text-gray-500 mt-1 text-center w-full">{product.brand}</p>
+          
+          <div className="mt-2 flex items-center justify-center w-full">
+            <span className={`${priceTextClass} font-bold text-lg`}>PKR {Number(product.salePrice ?? product.price ?? 0).toLocaleString()}</span>
+          </div>
+
+          <div className="mt-2 flex justify-center w-full">
+            <span className={`inline-flex text-xs font-semibold px-2.5 py-1 rounded-full ${stockClasses}`}>{stockLabel}</span>
+          </div>
+
           {hasRating && (
-            <div className="flex items-center gap-1 text-sm mt-2">
+            <div className="flex items-center justify-center gap-1 text-sm mt-2 w-full">
               <FaStar className="text-yellow-500" size={13} />
               <span>{ratingValue}</span>
             </div>
           )}
-          <div className="mt-2 flex items-center gap-2">
-            <span className={`${priceTextClass} font-bold text-lg`}>PKR {Number(product.salePrice ?? product.price ?? 0).toLocaleString()}</span>
-          </div>
-          <div className="mt-2">
-            <span className={`inline-flex text-xs font-semibold px-2.5 py-1 rounded-full ${stockClasses}`}>{stockLabel}</span>
+
+          {/* Add to Cart & Compare Buttons centered inside the padding area */}
+          <div className="mt-4 flex gap-2 w-full">
+            <button
+              type="button"
+              disabled={product.stock <= 0}
+              onClick={(event) => {
+                event.stopPropagation();
+                handleAddToCart();
+              }}
+              className={`flex-1 py-2 rounded-md text-sm font-semibold transition-all ${
+                product.stock <= 0 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-[#facc15] text-black hover:bg-[#eab308]'
+              }`}
+            >
+              Add to Cart
+            </button>
+            <button
+              type="button"
+              onClick={(event) => {
+                event.stopPropagation();
+                handleCompareToggle();
+              }}
+              className={`px-3 py-2 rounded-md border flex items-center justify-center transition-all ${
+                isInCompare(product.id)
+                  ? 'border-[#facc15] bg-[#facc15]/10 text-yellow-600'
+                  : 'border-gray-200 text-gray-400 hover:bg-gray-50 hover:text-gray-700'
+              }`}
+              title={isInCompare(product.id) ? 'Remove from compare' : 'Add to compare'}
+            >
+              <FaBalanceScale size={15} />
+            </button>
           </div>
         </div>
-      </div>
-      <div className="mt-3 flex gap-2">
-          <button
-            type="button"
-            disabled={product.stock <= 0}
-            onClick={(event) => {
-              event.stopPropagation();
-              handleAddToCart();
-            }}
-            className={`flex-1 py-2 rounded-md text-sm font-semibold ${
-              product.stock <= 0 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-[#facc15] text-black hover:bg-[#eab308]'
-            }`}
-          >
-            Add to Cart
-          </button>
-          <button
-            type="button"
-            onClick={(event) => {
-              event.stopPropagation();
-              handleCompareToggle();
-            }}
-            className={`px-3 py-2 rounded-md border flex items-center justify-center transition-all ${
-              isInCompare(product.id)
-                ? 'border-[#facc15] bg-[#facc15]/10 text-yellow-600'
-                : 'border-gray-200 text-gray-400 hover:bg-gray-50 hover:text-gray-700'
-            }`}
-            title={isInCompare(product.id) ? 'Remove from compare' : 'Add to compare'}
-          >
-            <FaBalanceScale size={15} />
-          </button>
       </div>
     </article>
   );
