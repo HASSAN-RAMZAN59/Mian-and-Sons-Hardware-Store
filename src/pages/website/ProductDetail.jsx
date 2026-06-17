@@ -638,10 +638,10 @@ const ProductDetail = () => {
                   />
                 </div>
               </div>
-              <div className="p-3">
-                <p className="text-xs text-gray-500">{product.category}</p>
-                <h4 className="font-semibold text-primary line-clamp-2 min-h-[3rem]">{product.name}</h4>
-                <p className="text-secondary font-bold mt-2">Rs. {product.salePrice.toLocaleString()}</p>
+              <div className="p-3 flex flex-col items-center text-center">
+                <p className="text-xs text-gray-500 text-center w-full">{product.category}</p>
+                <h4 className="font-semibold text-primary line-clamp-2 min-h-[3rem] text-center w-full">{product.name}</h4>
+                <p className="text-secondary font-bold mt-2 text-center w-full">Rs. {product.salePrice.toLocaleString()}</p>
               </div>
             </article>
           ))}
@@ -667,10 +667,10 @@ const ProductDetail = () => {
                     />
                   </div>
                 </div>
-                <div className="p-4">
-                  <p className="text-xs text-gray-500">{item.category}</p>
-                  <h4 className="font-semibold text-primary line-clamp-2 min-h-[3rem]">{item.name}</h4>
-                  <p className="text-secondary font-bold mt-2">Rs. {item.price.toLocaleString()}</p>
+                <div className="p-4 flex flex-col items-center text-center">
+                  <p className="text-xs text-gray-500 text-center w-full">{item.category}</p>
+                  <h4 className="font-semibold text-primary line-clamp-2 min-h-[3rem] text-center w-full">{item.name}</h4>
+                  <p className="text-secondary font-bold mt-2 text-center w-full">Rs. {item.price.toLocaleString()}</p>
                 </div>
               </Link>
             ))}

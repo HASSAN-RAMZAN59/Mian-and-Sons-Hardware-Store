@@ -178,25 +178,25 @@ const FeaturedProducts = ({ products }) => {
                   </div>
                 </div>
 
-                <div className="p-4">
-                  <h3 className="font-semibold text-gray-800 line-clamp-2 min-h-[3rem]">{product.name}</h3>
-                  <p className="text-xs text-gray-500 mt-1">{product.brand}</p>
+                <div className="p-4 flex flex-col items-center text-center">
+                  <h3 className="font-semibold text-gray-800 line-clamp-2 min-h-[3rem] text-center w-full">{product.name}</h3>
+                  <p className="text-xs text-gray-500 mt-1 text-center w-full">{product.brand}</p>
 
                   {Number.isFinite(product.rating) && (
-                    <div className="flex items-center gap-1 text-sm mt-2">
+                    <div className="flex items-center justify-center gap-1 text-sm mt-2 w-full">
                       <FaStar className="text-yellow-500" size={13} />
                       <span className="font-medium text-gray-700">{product.rating.toFixed(1)}</span>
                       <span className="text-gray-400">⭐</span>
                     </div>
                   )}
 
-                  <div className="mt-2 flex items-center gap-2">
+                  <div className="mt-2 flex items-center justify-center gap-2 w-full">
                     <span className="text-secondary font-bold text-lg">
                       {formatPkr(Number.isFinite(product.salePrice) ? product.salePrice : product.price)}
                     </span>
                   </div>
 
-                  <div className="mt-3">
+                  <div className="mt-3 flex justify-center w-full">
                     <span className={`inline-flex px-2.5 py-1 rounded-full text-xs font-semibold ${stockBadge.classes}`}>
                       {stockBadge.label}
                     </span>
