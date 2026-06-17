@@ -65,14 +65,23 @@ const MobileMenu = ({
                       <FaChevronDown size={12} className="transition-transform group-open:rotate-180" />
                     </summary>
                     <div className="px-3 pb-3 space-y-1">
+                      {/* View All link */}
+                      <Link
+                        to={`/shop?category=${encodeURIComponent(category.category)}`}
+                        onClick={onClose}
+                        className="block text-sm font-semibold text-primary hover:text-secondary mb-1 border-b border-gray-100 pb-1"
+                      >
+                        View All
+                      </Link>
+
                       {category.items.map((item) => (
                         <Link
-                          key={item}
-                          to={`/shop?category=${encodeURIComponent(item)}`}
+                          key={item.label}
+                          to={`/shop?category=${encodeURIComponent(category.category)}&search=${encodeURIComponent(item.query)}`}
                           onClick={onClose}
                           className="block text-sm text-gray-600 hover:text-secondary"
                         >
-                          {item}
+                          {item.label}
                         </Link>
                       ))}
                     </div>

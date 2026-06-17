@@ -223,7 +223,15 @@ const Navbar = ({ onToggleSidebar }) => {
         <div className="flex items-center justify-between px-6 py-4">
           {/* Left Side */}
           <div className="flex items-center space-x-4 flex-1">
-            {/* Hamburger Menu removed */}
+            {/* Hamburger Menu */}
+            <button
+              onClick={onToggleSidebar}
+              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors focus:outline-none md:hidden"
+              title="Toggle Sidebar"
+              aria-label="Toggle Sidebar"
+            >
+              <FaBars className="text-gray-600 dark:text-gray-300" size={18} />
+            </button>
 
             {/* Page Title & Breadcrumbs */}
             <div className="hidden md:block">

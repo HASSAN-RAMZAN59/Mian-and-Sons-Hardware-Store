@@ -37,23 +37,41 @@ const normalizeCategoryLabel = (value) => String(value || '').trim();
 const MEGA_MENU = [
   {
     label: 'Plumbing & Sanitary (15)',
-    category: 'Plumbing & Sanitary',
-    items: ['Pipes', 'Water Tanks', 'Sink Bowls', 'Basins']
+    category: 'Plumbing & Sanitary Items',
+    items: [
+      { label: 'Pipes', query: 'Pipe' },
+      { label: 'Water Tanks', query: 'Water Tank' },
+      { label: 'Sink Bowls', query: 'Sink Bowl' },
+      { label: 'Basins', query: 'Basin' }
+    ]
   },
   {
     label: 'Bath Accessories & Taps (8)',
-    category: 'Bath Accessories & Taps',
-    items: ['Bath Seats', 'Simple Taps', 'T-Cock', 'Shower Heads']
+    category: 'Bath Accessories & Taps:',
+    items: [
+      { label: 'Bath Seats', query: 'Bath Seat' },
+      { label: 'Simple Taps', query: 'Simple Tap' },
+      { label: 'T-Cock', query: 'T-Cock' },
+      { label: 'Shower Heads', query: 'Shower' }
+    ]
   },
   {
     label: 'Paints & Accessories (6)',
     category: 'Paints & Accessories',
-    items: ['Paint Brushes', 'Paint Sprays']
+    items: [
+      { label: 'Paint Brushes', query: 'Paint Brush' },
+      { label: 'Paint Sprays', query: 'Paint Spray' }
+    ]
   },
   {
     label: 'Electrical Hardware (8)',
-    category: 'Electrical Hardware',
-    items: ['Wiring Pipes', 'Fan Boxes', 'Breakers', 'Bulb Holders']
+    category: 'Electrical Hardware Items',
+    items: [
+      { label: 'Wiring Pipes', query: 'Wiring Pipe' },
+      { label: 'Fan Boxes', query: 'Fan Box' },
+      { label: 'Breakers', query: 'Breaker' },
+      { label: 'Bulb Holders', query: 'Bulb Holder' }
+    ]
   }
 ];
 

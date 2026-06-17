@@ -126,7 +126,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex flex-col lg:flex-row bg-gray-50 dark:bg-gray-900">
       {/* Left Side - Branding */}
       <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -180,9 +180,9 @@ const Login = () => {
         </div>
       </div>
 
-      {/* Right Side - Login Form */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-6 py-12">
-        <div className="w-full max-w-md">
+      {/* Right Side - Login Form Wrapper */}
+      <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4 py-8 sm:px-6 sm:py-12">
+        <div className="w-full max-w-md bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-700/50 p-6 sm:p-10">
           {/* Mobile Logo */}
           <div className="lg:hidden text-center mb-8">
             <div className="inline-flex w-36 h-36 rounded-full overflow-hidden items-center justify-center mb-4 bg-transparent p-3">
@@ -305,18 +305,7 @@ const Login = () => {
             </Link>
           </form>
 
-          {/* Demo Credentials */}
-          <div className="mt-8 p-4 bg-yellow-50 dark:bg-yellow-900/10 border border-yellow-200 dark:border-yellow-800 rounded-lg">
-            <p className="text-sm font-semibold text-yellow-900 dark:text-yellow-300 mb-2">
-              Demo Credentials for Testing:
-            </p>
-            <div className="space-y-1 text-xs text-yellow-800 dark:text-yellow-400 font-mono">
-              <p>• Superadmin: <span className="font-semibold">superadmin</span> / super123</p>
-              <p>• Admin: <span className="font-semibold">admin</span> / admin123</p>
-              <p>• Manager: <span className="font-semibold">manager</span> / manager123</p>
-              <p>• Cashier: <span className="font-semibold">cashier</span> / cashier123</p>
-            </div>
-          </div>
+
 
           {/* Footer */}
           <p className="mt-6 text-center text-sm text-gray-600 dark:text-gray-400">
