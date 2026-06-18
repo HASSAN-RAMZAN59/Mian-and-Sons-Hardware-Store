@@ -33,6 +33,7 @@ class ProductCreate(BaseModel):
     company: Optional[str] = None
     type: Optional[str] = None
     category: Optional[str] = None
+    description: Optional[str] = None
     purchasePrice: float = 0
     salePrice: float = 0
     unit: Optional[str] = None
@@ -56,6 +57,7 @@ class Product(BaseModel):
     size: Optional[str] = None
     company: Optional[str] = None
     type: Optional[str] = None
+    description: Optional[str] = None
     purchasePrice: float
     salePrice: float
     unit: Optional[str] = None

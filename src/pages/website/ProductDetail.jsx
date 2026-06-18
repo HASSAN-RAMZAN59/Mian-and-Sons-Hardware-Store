@@ -115,8 +115,8 @@ const ProductDetail = () => {
       salePrice,
       unitPriceText: `Rs. ${salePrice.toLocaleString()} per ${unitLabel}`,
       stock: Number(selected.stockQty ?? selected.stock ?? 0),
-      description: selected.description,
-      fullDescription: `${selected.description} Built for reliable day-to-day use in homes, shops, and maintenance work.`,
+      description: selected.description || '',
+      fullDescription: selected.description || 'Built for reliable day-to-day use in homes, shops, and maintenance work.',
       specs: {
         Brand: selected.company,
         Model: selected.type || selected.name,
@@ -425,7 +425,7 @@ const ProductDetail = () => {
               <span className="px-2.5 py-1 rounded-full bg-black/10">Trusted quality</span>
             </div>
             <p className="mt-3 text-sm text-black/75 leading-6">
-              Strong build, clean finish, and practical for daily workshop use. Choose quantity, add to cart, and continue to checkout.
+              {productData.description || 'Strong build, clean finish, and practical for daily workshop use. Choose quantity, add to cart, and continue to checkout.'}
             </p>
           </div>
 

@@ -155,6 +155,7 @@ async def add_product(payload: ProductCreate, request: Request):
             "company": payload.company,
             "type": payload.type,
             "category": category_name,
+            "description": payload.description,
             "purchasePrice": _to_float(payload.purchasePrice, "purchasePrice"),
             "salePrice": _to_float(payload.salePrice, "salePrice"),
             "unit": payload.unit,
@@ -238,7 +239,7 @@ async def update_product(product_id: str, payload: Dict[str, Any], request: Requ
         "name", "code", "size", "company", "type", "category", "purchasePrice",
         "salePrice", "unit", "tags", "category_id", "brand_id",
         "supplier_id", "currentStock", "minStock", "maxStock", "image",
-        "supplier", "branch", "status"
+        "supplier", "branch", "status", "description"
     }
     update_doc = {k: v for k, v in payload.items() if k in allowed_keys}
     if "category" in update_doc and not update_doc.get("category"):
