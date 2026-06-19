@@ -52,16 +52,16 @@ api.interceptors.response.use(
 
     if (error.response?.status === 401) {
       const url = error.config?.url || '';
-      
+
       // If it's a login or register attempt, let the form handle the 401 error
       if (
-        url.includes('/customer-auth/login') || 
+        url.includes('/customer-auth/login') ||
         url.includes('/customer-auth/register') ||
         url.includes('/users/login')
       ) {
         return Promise.reject(error);
       }
-      
+
       // If it's another customer-auth route that fails with 401, redirect to storefront customer login
       if (url.includes('/customer-auth') || url.includes('/customers/')) {
         localStorage.removeItem('customerToken');

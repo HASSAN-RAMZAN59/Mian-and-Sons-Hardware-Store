@@ -8,5 +8,6 @@ PyJWT
 dnspython
 gunicorn
 python-multipart
+cloudinary
 
 

@@ -3,10 +3,20 @@ from auth_utils import PermissionChecker
 import os
 import shutil
 from typing import Any, Dict, List
+import cloudinary
+import cloudinary.uploader
 
 from db_utils import normalize_object_ids, parse_object_id
 from models import ProductCreate
 from audit_logger import log_activity
+
+# Cloudinary Configuration
+cloudinary.config(
+    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME", "ddn2sk1jy"),
+    api_key=os.getenv("CLOUDINARY_API_KEY", "923157939598755"),
+    api_secret=os.getenv("CLOUDINARY_API_SECRET", "vUt8j_T2uRxsDfNOomkjPSHqIgw"),
+    secure=True
+)
 
 router = APIRouter()
 
@@ -107,27 +117,39 @@ async def get_products(request: Request):
 @router.post("/products/upload", dependencies=[Depends(PermissionChecker("products", "create"))])
 async def upload_product_image(file: UploadFile = File(...)):
     try:
-        # Target directory relative to backend folder
-        upload_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public", "images", "products"))
-        if not os.path.exists(upload_dir):
-            os.makedirs(upload_dir, exist_ok=True)
-        
-        import uuid
-        ext = os.path.splitext(file.filename)[1].lower()
-        if not ext:
-            ext = ".png"
-            
-        safe_filename = f"{uuid.uuid4().hex}{ext}"
-        file_path = os.path.join(upload_dir, safe_filename)
-        
-        with open(file_path, "wb") as buffer:
-            shutil.copyfileobj(file.file, buffer)
-            
-        # Return the relative path for frontend use
-        return {"filename": f"/images/products/{safe_filename}"}
+        # Reset file stream head to read
+        file.file.seek(0)
+        # Upload the file directly to Cloudinary
+        upload_result = cloudinary.uploader.upload(
+            file.file,
+            folder="products",
+            resource_type="image"
+        )
+        secure_url = upload_result.get("secure_url")
+        if not secure_url:
+            raise Exception("Cloudinary upload failed - secure_url not found in response")
+        return {"filename": secure_url}
     except Exception as e:
-        print("ERROR in /products/upload:", e)
-        raise HTTPException(status_code=500, detail=str(e))
+        print("ERROR in /products/upload (Cloudinary):", e)
+        # Fallback to local upload so that the site doesn't break if there's any temporary Cloudinary issue
+        try:
+            file.file.seek(0)
+            upload_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public", "images", "products"))
+            if not os.path.exists(upload_dir):
+                os.makedirs(upload_dir, exist_ok=True)
+            
+            import uuid
+            ext = os.path.splitext(file.filename)[1].lower() or ".png"
+            safe_filename = f"{uuid.uuid4().hex}{ext}"
+            file_path = os.path.join(upload_dir, safe_filename)
+            
+            with open(file_path, "wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+                
+            return {"filename": f"/images/products/{safe_filename}"}
+        except Exception as local_err:
+            print("ERROR in /products/upload (local fallback):", local_err)
+            raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
 
 
 @router.post("/products", dependencies=[Depends(PermissionChecker("products", "create"))])
