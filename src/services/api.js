@@ -53,8 +53,12 @@ api.interceptors.response.use(
     if (error.response?.status === 401) {
       const url = error.config?.url || '';
       
-      // If it's a customer login attempt, let the form handle the 401 error
-      if (url.includes('/customer-auth/login') || url.includes('/customer-auth/register')) {
+      // If it's a login or register attempt, let the form handle the 401 error
+      if (
+        url.includes('/customer-auth/login') || 
+        url.includes('/customer-auth/register') ||
+        url.includes('/users/login')
+      ) {
         return Promise.reject(error);
       }
       
@@ -62,14 +66,18 @@ api.interceptors.response.use(
       if (url.includes('/customer-auth') || url.includes('/customers/')) {
         localStorage.removeItem('customerToken');
         localStorage.removeItem('customerUser');
-        window.location.href = '/customer/login';
+        if (window.location.pathname !== '/customer/login') {
+          window.location.href = '/customer/login';
+        }
         return Promise.reject(error);
       }
 
       // Otherwise, log out the admin user and redirect to admin login
       localStorage.removeItem('token');
       sessionStorage.removeItem('token');
-      window.location.href = '/login';
+      if (window.location.pathname !== '/login' && window.location.pathname !== '/admin/login') {
+        window.location.href = '/login';
+      }
     }
     return Promise.reject(error);
   }
