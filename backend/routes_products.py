@@ -117,23 +117,24 @@ async def get_products(request: Request):
 @router.post("/products/upload", dependencies=[Depends(PermissionChecker("products", "create"))])
 async def upload_product_image(file: UploadFile = File(...)):
     try:
-        # Reset file stream head to read
-        file.file.seek(0)
+        # Read the file content as bytes
+        file_bytes = await file.read()
+        
         # Upload the file directly to Cloudinary
         upload_result = cloudinary.uploader.upload(
-            file.file,
+            file_bytes,
             folder="products",
             resource_type="image"
         )
         secure_url = upload_result.get("secure_url")
         if not secure_url:
             raise Exception("Cloudinary upload failed - secure_url not found in response")
+        print("INFO: Uploaded file to Cloudinary successfully:", secure_url)
         return {"filename": secure_url}
     except Exception as e:
         print("ERROR in /products/upload (Cloudinary):", e)
         # Fallback to local upload so that the site doesn't break if there's any temporary Cloudinary issue
         try:
-            file.file.seek(0)
             upload_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public", "images", "products"))
             if not os.path.exists(upload_dir):
                 os.makedirs(upload_dir, exist_ok=True)
@@ -143,9 +144,11 @@ async def upload_product_image(file: UploadFile = File(...)):
             safe_filename = f"{uuid.uuid4().hex}{ext}"
             file_path = os.path.join(upload_dir, safe_filename)
             
+            # Write the already read bytes to file
             with open(file_path, "wb") as buffer:
-                shutil.copyfileobj(file.file, buffer)
+                buffer.write(file_bytes)
                 
+            print("INFO: Fell back to local image upload:", f"/images/products/{safe_filename}")
             return {"filename": f"/images/products/{safe_filename}"}
         except Exception as local_err:
             print("ERROR in /products/upload (local fallback):", local_err)
