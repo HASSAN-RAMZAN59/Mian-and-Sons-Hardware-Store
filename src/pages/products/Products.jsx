@@ -61,6 +61,7 @@ const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImageFile, setSelectedImageFile] = useState(null);
   const [selectedImagePreview, setSelectedImagePreview] = useState('');
+  const [resetKey, setResetKey] = useState(0);
   const [formData, setFormData] = useState({
     name: '',
     code: '',
@@ -259,6 +260,7 @@ const Products = () => {
   const resetForm = () => {
     setSelectedImageFile(null);
     setSelectedImagePreview('');
+    setResetKey(prev => prev + 1);
     setFormData({
       name: '',
       code: '',
@@ -978,7 +980,7 @@ const Products = () => {
               Product Image
             </label>
             <input
-              key={selectedImageFile ? 'has-file' : 'no-file'}
+              key={resetKey}
               type="file"
               accept="image/*"
               onChange={handleImageUpload}
