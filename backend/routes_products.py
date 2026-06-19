@@ -12,9 +12,9 @@ from audit_logger import log_activity
 
 # Cloudinary Configuration
 cloudinary.config(
-    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME", "ddn2sk1jy"),
-    api_key=os.getenv("CLOUDINARY_API_KEY", "923157939598755"),
-    api_secret=os.getenv("CLOUDINARY_API_SECRET", "vUt8j_T2uRxsDfNOomkjPSHqIgw"),
+    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
+    api_key=os.getenv("CLOUDINARY_API_KEY"),
+    api_secret=os.getenv("CLOUDINARY_API_SECRET"),
     secure=True
 )
 
