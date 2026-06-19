@@ -20,6 +20,8 @@ cloudinary.config(
 
 router = APIRouter()
 
+LAST_UPLOAD_ERROR = "No uploads yet"
+
 
 def _to_float(value, field_name: str) -> float:
     try:
@@ -132,6 +134,8 @@ async def upload_product_image(file: UploadFile = File(...)):
         print("INFO: Uploaded file to Cloudinary successfully:", secure_url)
         return {"filename": secure_url}
     except Exception as e:
+        global LAST_UPLOAD_ERROR
+        LAST_UPLOAD_ERROR = f"Cloudinary error: {str(e)}"
         print("ERROR in /products/upload (Cloudinary):", e)
         # Fallback to local upload so that the site doesn't break if there's any temporary Cloudinary issue
         try:
@@ -153,6 +157,16 @@ async def upload_product_image(file: UploadFile = File(...)):
         except Exception as local_err:
             print("ERROR in /products/upload (local fallback):", local_err)
             raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
+
+
+@router.get("/products/upload-debug")
+async def get_upload_debug():
+    return {
+        "CLOUDINARY_CLOUD_NAME_exists": bool(os.getenv("CLOUDINARY_CLOUD_NAME")),
+        "CLOUDINARY_API_KEY_exists": bool(os.getenv("CLOUDINARY_API_KEY")),
+        "CLOUDINARY_API_SECRET_exists": bool(os.getenv("CLOUDINARY_API_SECRET")),
+        "LAST_UPLOAD_ERROR": LAST_UPLOAD_ERROR
+    }
 
 
 @router.post("/products", dependencies=[Depends(PermissionChecker("products", "create"))])
