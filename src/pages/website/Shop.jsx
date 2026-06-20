@@ -121,11 +121,13 @@ const Shop = () => {
   );
 
   useEffect(() => {
-    setFilters(parsedFromUrl.filters);
-    setSearchText(parsedFromUrl.search);
-    setSort(parsedFromUrl.sort);
-    setPage(parsedFromUrl.page);
-  }, [parsedFromUrl]);
+    const filtersChanged = JSON.stringify(filters) !== JSON.stringify(parsedFromUrl.filters);
+    if (filtersChanged) setFilters(parsedFromUrl.filters);
+
+    if (searchText !== parsedFromUrl.search) setSearchText(parsedFromUrl.search);
+    if (sort !== parsedFromUrl.sort) setSort(parsedFromUrl.sort);
+    if (page !== parsedFromUrl.page) setPage(parsedFromUrl.page);
+  }, [parsedFromUrl, filters, searchText, sort, page]);
 
   useEffect(() => {
     const handleResize = () => {

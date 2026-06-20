@@ -81,15 +81,19 @@ const ProductFilters = ({
   }, [productsData]);
 
   useEffect(() => {
-    setSelectedCategories(initialFilters.categories || []);
-    setSelectedBrands(initialFilters.brands || []);
-    setMinPrice(initialFilters.priceRange?.min ?? 0);
-    setMaxPrice(initialFilters.priceRange?.max ?? 500000);
-    setInStockOnly(initialFilters.availability?.inStockOnly ?? false);
-    setIncludeOutOfStock(initialFilters.availability?.includeOutOfStock ?? true);
-    setRating(initialFilters.rating || 'all');
-    setOnSaleOnly(initialFilters.onSaleOnly ?? false);
-    setNewArrivalsOnly(initialFilters.newArrivalsOnly ?? false);
+    const categoriesChanged = JSON.stringify(selectedCategories) !== JSON.stringify(initialFilters.categories || []);
+    if (categoriesChanged) setSelectedCategories(initialFilters.categories || []);
+
+    const brandsChanged = JSON.stringify(selectedBrands) !== JSON.stringify(initialFilters.brands || []);
+    if (brandsChanged) setSelectedBrands(initialFilters.brands || []);
+
+    if (minPrice !== (initialFilters.priceRange?.min ?? 0)) setMinPrice(initialFilters.priceRange?.min ?? 0);
+    if (maxPrice !== (initialFilters.priceRange?.max ?? 500000)) setMaxPrice(initialFilters.priceRange?.max ?? 500000);
+    if (inStockOnly !== (initialFilters.availability?.inStockOnly ?? false)) setInStockOnly(initialFilters.availability?.inStockOnly ?? false);
+    if (includeOutOfStock !== (initialFilters.availability?.includeOutOfStock ?? true)) setIncludeOutOfStock(initialFilters.availability?.includeOutOfStock ?? true);
+    if (rating !== (initialFilters.rating || 'all')) setRating(initialFilters.rating || 'all');
+    if (onSaleOnly !== (initialFilters.onSaleOnly ?? false)) setOnSaleOnly(initialFilters.onSaleOnly ?? false);
+    if (newArrivalsOnly !== (initialFilters.newArrivalsOnly ?? false)) setNewArrivalsOnly(initialFilters.newArrivalsOnly ?? false);
   }, [
     initialFilters.categories,
     initialFilters.brands,
@@ -99,7 +103,16 @@ const ProductFilters = ({
     initialFilters.availability?.includeOutOfStock,
     initialFilters.rating,
     initialFilters.onSaleOnly,
-    initialFilters.newArrivalsOnly
+    initialFilters.newArrivalsOnly,
+    selectedCategories,
+    selectedBrands,
+    minPrice,
+    maxPrice,
+    inStockOnly,
+    includeOutOfStock,
+    rating,
+    onSaleOnly,
+    newArrivalsOnly
   ]);
 
   const toggleSection = (section) => {
