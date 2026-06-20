@@ -142,12 +142,14 @@ const WebNavbar = () => {
     const isDesktopSearchFocused = document.activeElement && searchWrapRef.current && searchWrapRef.current.contains(document.activeElement);
     const isMobileSearchFocused = document.activeElement && mobileSearchWrapRef.current && mobileSearchWrapRef.current.contains(document.activeElement);
 
-    if (!isDesktopSearchFocused && !isMobileSearchFocused) {
+    if (searchParam === searchText) {
+      setSearchInteracted(false);
+    } else if (!isDesktopSearchFocused && !isMobileSearchFocused) {
       setSearchText(searchParam);
+      setSearchInteracted(false);
     }
     setSearchCategory(categoryParam);
-    setSearchInteracted(false);
-  }, [location.pathname, location.search]);
+  }, [location.pathname, location.search, searchText]);
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
@@ -310,17 +312,21 @@ const WebNavbar = () => {
   useEffect(() => {
     if (!searchInteracted) return;
 
-    const normalizedSearch = searchText.trim();
-    const isOnShop = window.location.pathname === '/shop';
-    if (!normalizedSearch && searchCategory === 'All Categories' && !isOnShop) return;
+    const handler = setTimeout(() => {
+      const normalizedSearch = searchText.trim();
+      const isOnShop = window.location.pathname === '/shop';
+      if (!normalizedSearch && searchCategory === 'All Categories' && !isOnShop) return;
 
-    const nextSearch = buildShopSearch();
-    const targetPath = `/shop${nextSearch ? `?${nextSearch}` : ''}`;
-    const currentPath = `${window.location.pathname}${window.location.search}`;
+      const nextSearch = buildShopSearch();
+      const targetPath = `/shop${nextSearch ? `?${nextSearch}` : ''}`;
+      const currentPath = `${window.location.pathname}${window.location.search}`;
 
-    if (targetPath !== currentPath) {
-      navigate(targetPath, { replace: true });
-    }
+      if (targetPath !== currentPath) {
+        navigate(targetPath, { replace: true });
+      }
+    }, 300);
+
+    return () => clearTimeout(handler);
   }, [searchInteracted, searchText, searchCategory, navigate]);
 
   const handleSearchTextChange = (value) => {
