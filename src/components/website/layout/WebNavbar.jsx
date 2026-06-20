@@ -441,8 +441,8 @@ const WebNavbar = () => {
             </div>
           </Link>
 
-          <div className="hidden lg:flex flex-1 overflow-visible" ref={searchWrapRef}>
-            <form onSubmit={handleSearchSubmit} className="w-full relative">
+          <div className="hidden lg:flex flex-1 overflow-visible relative" ref={searchWrapRef}>
+            <form onSubmit={handleSearchSubmit} className="w-full relative" style={{ position: 'relative' }}>
               <div className="flex border border-gray-300 rounded-md overflow-hidden">
                 <select
                   value={searchCategory}
@@ -475,7 +475,7 @@ const WebNavbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -6 }}
                     className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-[99999]"
-                    style={{ zIndex: 99999 }}
+                    style={{ position: 'absolute', zIndex: 99999 }}
                   >
                     {suggestions.length > 0 ? (
                       suggestions.map((item) => (
@@ -670,8 +670,8 @@ const WebNavbar = () => {
           </div>
         </div>
 
-        <div className="lg:hidden px-4 pb-3 overflow-visible" ref={mobileSearchWrapRef}>
-          <form onSubmit={handleSearchSubmit} className="relative">
+        <div className="lg:hidden px-4 pb-3 overflow-visible relative" ref={mobileSearchWrapRef}>
+          <form onSubmit={handleSearchSubmit} className="relative" style={{ position: 'relative' }}>
             <div className="flex border border-gray-300 rounded-md overflow-hidden bg-white">
               <input
                 type="text"
@@ -693,7 +693,7 @@ const WebNavbar = () => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -6 }}
                   className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-[99999]"
-                  style={{ zIndex: 99999 }}
+                  style={{ position: 'absolute', zIndex: 99999 }}
                 >
                   {suggestions.length > 0 ? (
                     suggestions.map((item) => (
