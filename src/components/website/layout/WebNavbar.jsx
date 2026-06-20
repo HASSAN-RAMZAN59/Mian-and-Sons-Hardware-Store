@@ -139,7 +139,12 @@ const WebNavbar = () => {
     const searchParam = params.get('search') || '';
     const categoryParam = params.get('category') || 'All Categories';
     
-    setSearchText(searchParam);
+    const isDesktopSearchFocused = document.activeElement && searchWrapRef.current && searchWrapRef.current.contains(document.activeElement);
+    const isMobileSearchFocused = document.activeElement && mobileSearchWrapRef.current && mobileSearchWrapRef.current.contains(document.activeElement);
+
+    if (!isDesktopSearchFocused && !isMobileSearchFocused) {
+      setSearchText(searchParam);
+    }
     setSearchCategory(categoryParam);
     setSearchInteracted(false);
   }, [location.pathname, location.search]);
