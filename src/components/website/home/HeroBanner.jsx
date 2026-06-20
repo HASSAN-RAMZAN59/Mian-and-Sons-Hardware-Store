@@ -52,7 +52,7 @@ const HeroBanner = () => {
   };
 
   return (
-    <section className="w-full">
+    <section className="w-full relative z-0">
       <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-200">
         <Swiper
           modules={[Autoplay, EffectFade, Navigation, Pagination]}

@@ -420,7 +420,7 @@ const WebNavbar = () => {
         </div>
       </div>
 
-      <header className={`sticky top-0 z-50 bg-white transition-shadow ${isSticky ? 'shadow-md' : ''}`}>
+      <header className={`sticky top-0 z-[99999] bg-white transition-shadow overflow-visible ${isSticky ? 'shadow-md' : ''}`}>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-3 lg:gap-5">
           <button
             type="button"
@@ -441,7 +441,7 @@ const WebNavbar = () => {
             </div>
           </Link>
 
-          <div className="hidden lg:flex flex-1" ref={searchWrapRef}>
+          <div className="hidden lg:flex flex-1 overflow-visible" ref={searchWrapRef}>
             <form onSubmit={handleSearchSubmit} className="w-full relative">
               <div className="flex border border-gray-300 rounded-md overflow-hidden">
                 <select
@@ -474,7 +474,8 @@ const WebNavbar = () => {
                     initial={{ opacity: 0, y: -6 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -6 }}
-                    className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-50"
+                    className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-[99999]"
+                    style={{ zIndex: 99999 }}
                   >
                     {suggestions.length > 0 ? (
                       suggestions.map((item) => (
@@ -669,7 +670,7 @@ const WebNavbar = () => {
           </div>
         </div>
 
-        <div className="lg:hidden px-4 pb-3" ref={mobileSearchWrapRef}>
+        <div className="lg:hidden px-4 pb-3 overflow-visible" ref={mobileSearchWrapRef}>
           <form onSubmit={handleSearchSubmit} className="relative">
             <div className="flex border border-gray-300 rounded-md overflow-hidden bg-white">
               <input
@@ -691,7 +692,8 @@ const WebNavbar = () => {
                   initial={{ opacity: 0, y: -6 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -6 }}
-                  className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-50"
+                  className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-md shadow-lg z-[99999]"
+                  style={{ zIndex: 99999 }}
                 >
                   {suggestions.length > 0 ? (
                     suggestions.map((item) => (
