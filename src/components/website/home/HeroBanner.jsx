@@ -30,7 +30,7 @@ const heroSlides = [
   {
     eyebrow: 'Trusted Quality',
     title: 'Build Your Dream',
-    description: 'Always at your Servce',
+    description: 'Always at your Service',
     primaryCta: { label: 'Explore Now', to: '/#featured-products-section' },
     panelTitle: 'Construction Essentials',
     panelText: 'Ready stock for residential and commercial projects',
