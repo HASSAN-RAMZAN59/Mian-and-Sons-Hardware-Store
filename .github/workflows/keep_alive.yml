@@ -1,0 +1,20 @@
+name: Keep Render Backend Alive
+
+on:
+  schedule:
+    # Runs every 14 minutes (UTC)
+    - cron: '*/14 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping-backend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Backend
+        env:
+          BACKEND_URL: ${{ secrets.RENDER_BACKEND_URL }}
+        run: |
+          TARGET_URL="${BACKEND_URL:-https://mian-sons-hardware.onrender.com}"
+          echo "Sending keep-alive ping to: $TARGET_URL/ping"
+          curl -s -m 30 -o /dev/null -w "HTTP Status: %{http_code}\nTime: %{time_total}s\n" "$TARGET_URL/ping" || \
+          curl -s -m 30 -o /dev/null -w "HTTP Status: %{http_code}\n" "$TARGET_URL/" || true

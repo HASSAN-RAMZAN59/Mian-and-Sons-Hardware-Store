@@ -39,7 +39,9 @@ from routes_system import router as system_router
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
 from motor.motor_asyncio import AsyncIOMotorClient
+import asyncio
 import os
+import urllib.request
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -167,6 +169,46 @@ app.state.db = client[DATABASE_NAME]
 
 app.mount("/images", StaticFiles(directory=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public", "images"))), name="images")
 
+async def keep_alive_task():
+    """
+    Render Free Tier Spin-Down Preventer:
+    Pings the service's public URL every 14 minutes.
+    On Render, `RENDER_EXTERNAL_URL` is automatically set (e.g., https://your-service.onrender.com).
+    Alternatively, you can set `SELF_PING_URL` in environment variables.
+    """
+    # Wait 60 seconds after server starts before the first self-ping
+    await asyncio.sleep(60)
+
+    url = os.getenv("RENDER_EXTERNAL_URL") or os.getenv("SELF_PING_URL")
+    if not url:
+        print("[KEEP-ALIVE] Notice: Neither RENDER_EXTERNAL_URL nor SELF_PING_URL is defined.")
+        print("[KEEP-ALIVE] Self-ping is inactive in local development (activates automatically on Render).")
+        return
+
+    target_url = f"{url.rstrip('/')}/ping"
+    print(f"[KEEP-ALIVE] Self-ping active! Targeting {target_url} every 14 minutes.")
+
+    while True:
+        try:
+            loop = asyncio.get_running_loop()
+
+            def do_ping():
+                req = urllib.request.Request(
+                    target_url,
+                    headers={"User-Agent": "Render-KeepAlive/1.0"}
+                )
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    return resp.getcode()
+
+            status_code = await loop.run_in_executor(None, do_ping)
+            print(f"[KEEP-ALIVE] Ping sent successfully -> {target_url} [HTTP {status_code}]")
+        except Exception as e:
+            print(f"[KEEP-ALIVE] Ping notice: {e}")
+
+        # Sleep for 14 minutes (840 seconds)
+        await asyncio.sleep(840)
+
+
 # Verify database connection on startup
 @app.on_event("startup")
 async def startup_event():
@@ -182,6 +224,8 @@ async def startup_event():
         # Ensure database indexes
         from db_config import ensure_indexes
         await ensure_indexes(app.state.db)
+        # Start background self-ping task to prevent Render free tier sleep
+        asyncio.create_task(keep_alive_task())
     except Exception as e:
         print("------------------------------------------")
         print(f"Error connecting to MongoDB: {e}")
@@ -190,6 +234,10 @@ async def startup_event():
 @app.get("/")
 async def root():
     return {"message": "Backend running!"}
+
+@app.get("/ping")
+async def ping():
+    return {"status": "ok", "message": "pong"}
 
 # Include all routers (no duplicates)
 app.include_router(brands_router)
